@@ -29,6 +29,6 @@
 ![](https://github-contributor-stats.vercel.app/api?username=rdnsa&limit=5&theme=radical&combine_all_yearly_contributions=true)
 
 ---
-[![](https://komarev.com/ghpvc/?username=rdnsa&icon=0&color=10)](https://visitcount.itsvg.in)
+![](https://komarev.com/ghpvc/?username=rdnsa&label=Profile%20Views&color=22c55e&style=flat)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
