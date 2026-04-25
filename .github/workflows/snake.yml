@@ -22,7 +22,18 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Update contribution daily log
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ env.GITHUB_USERNAME }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          # Optional: add CONTRIBUTION_TOKEN from the rdnsa account to include private contributions.
+          GITHUB_TOKEN: ${{ secrets.CONTRIBUTION_TOKEN || github.token }}
+
+      - name: Update contribution log and snake tooltips
         run: node scripts/update-contribution-log.mjs
         env:
           # Optional: add CONTRIBUTION_TOKEN from the rdnsa account to include private contributions.
@@ -39,17 +50,6 @@ jobs:
             git commit -m "Update contribution daily log"
             git push
           fi
-
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ env.GITHUB_USERNAME }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          # Optional: add CONTRIBUTION_TOKEN from the rdnsa account to include private contributions.
-          GITHUB_TOKEN: ${{ secrets.CONTRIBUTION_TOKEN || github.token }}
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4

@@ -1,10 +1,11 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, readdir, writeFile } from "node:fs/promises";
 
 const username =
   process.env.GITHUB_USERNAME || process.env.GITHUB_REPOSITORY_OWNER || "rdnsa";
 const token =
   process.env.CONTRIBUTION_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 const readmePath = process.env.README_PATH || "README.md";
+const snakeOutputDir = process.env.SNAKE_OUTPUT_DIR || "dist";
 
 const startMarker = "<!-- CONTRIBUTION-STATS:START -->";
 const endMarker = "<!-- CONTRIBUTION-STATS:END -->";
@@ -61,9 +62,8 @@ if (!calendar) {
   throw new Error(`No GitHub contribution calendar found for ${username}.`);
 }
 
-const allDays = calendar.weeks
-  .flatMap((week) => week.contributionDays)
-  .sort((a, b) => a.date.localeCompare(b.date));
+const gridDays = calendar.weeks.flatMap((week) => week.contributionDays);
+const allDays = [...gridDays].sort((a, b) => a.date.localeCompare(b.date));
 
 const activeDays = allDays.filter((day) => day.contributionCount > 0);
 const periodStart = allDays[0]?.date ?? "-";
@@ -116,15 +116,6 @@ const monthlyRows = [...monthlyTotals.entries()]
       )} | ${numberFormatter.format(value.total)} |`
   );
 
-const activeDaysByMonth = new Map();
-
-for (const day of activeDays) {
-  const month = day.date.slice(0, 7);
-  const days = activeDaysByMonth.get(month) ?? [];
-  days.push(day);
-  activeDaysByMonth.set(month, days);
-}
-
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -132,27 +123,6 @@ function escapeHtml(value) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 }
-
-function formatActiveDayTile(day) {
-  const label = `${formatDate(day.date)}: ${numberFormatter.format(
-    day.contributionCount
-  )} contribution`;
-
-  return `<abbr title="${escapeHtml(label)}">&#x1F7E9; ${day.date.slice(
-    8
-  )}</abbr>`;
-}
-
-const activeMonthRows = [...activeDaysByMonth.entries()]
-  .sort(([a], [b]) => b.localeCompare(a))
-  .map(([month, days]) => {
-    const tiles = days
-      .sort((a, b) => a.date.localeCompare(b.date))
-      .map(formatActiveDayTile)
-      .join(" ");
-
-    return `<tr><td>${formatMonth(month)}</td><td>${tiles}</td></tr>`;
-  });
 
 const dailyRows = activeDays
   .toReversed()
@@ -172,20 +142,6 @@ const generated = [
     calendar.totalContributions
   )}\``,
   `- **Hari aktif:** \`${numberFormatter.format(activeDays.length)}\``,
-  "",
-  "### Kalender per bulan",
-  "Arahkan cursor ke kotak hijau untuk melihat tanggal dan jumlah contribution.",
-  "",
-  "<table>",
-  "<thead>",
-  "<tr><th>Bulan</th><th>Tanggal aktif</th></tr>",
-  "</thead>",
-  "<tbody>",
-  ...(activeMonthRows.length
-    ? activeMonthRows
-    : ["<tr><td>-</td><td>-</td></tr>"]),
-  "</tbody>",
-  "</table>",
   "",
   "### Rekap bulanan",
   "",
@@ -219,3 +175,59 @@ if (readme.includes(startMarker) && readme.includes(endMarker)) {
 if (nextReadme !== readme) {
   await writeFile(readmePath, nextReadme, "utf8");
 }
+
+function addSnakeTooltips(svg, days) {
+  let index = 0;
+  const cellPattern =
+    /<rect\b(?=[^>]*\bclass="c(?:\s|")[^"]*")[^>]*\/>/g;
+
+  const nextSvg = svg.replace(cellPattern, (rect) => {
+    const day = days[index];
+    index += 1;
+
+    if (!day) return rect;
+
+    const label = `${formatDate(day.date)}: ${numberFormatter.format(
+      day.contributionCount
+    )} contribution`;
+
+    return `${rect.slice(0, -2)} data-date="${escapeHtml(
+      day.date
+    )}" data-contribution-count="${day.contributionCount}"><title>${escapeHtml(
+      label
+    )}</title></rect>`;
+  });
+
+  if (index > 0 && index !== days.length) {
+    console.warn(
+      `Annotated ${index} snake cells, but GitHub returned ${days.length} contribution days.`
+    );
+  }
+
+  return nextSvg;
+}
+
+async function updateSnakeTooltips() {
+  let files;
+
+  try {
+    files = await readdir(snakeOutputDir);
+  } catch (error) {
+    if (error.code === "ENOENT") return;
+    throw error;
+  }
+
+  const svgFiles = files.filter((file) => file.endsWith(".svg"));
+
+  for (const file of svgFiles) {
+    const path = `${snakeOutputDir}/${file}`;
+    const svg = await readFile(path, "utf8");
+    const nextSvg = addSnakeTooltips(svg, gridDays);
+
+    if (nextSvg !== svg) {
+      await writeFile(path, nextSvg, "utf8");
+    }
+  }
+}
+
+await updateSnakeTooltips();
