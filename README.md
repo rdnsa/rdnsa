@@ -30,6 +30,24 @@ Data otomatis dari GitHub contribution calendar untuk akun `rdnsa`.
 - **Total contribution:** `85`
 - **Hari aktif:** `26`
 
+### Kalender per bulan
+Arahkan cursor ke kotak hijau untuk melihat tanggal dan jumlah contribution.
+
+<table>
+<thead>
+<tr><th>Bulan</th><th>Tanggal aktif</th></tr>
+</thead>
+<tbody>
+<tr><td>April 2026</td><td><abbr title="03 April 2026: 2 contribution">&#x1F7E9; 03</abbr> <abbr title="04 April 2026: 1 contribution">&#x1F7E9; 04</abbr> <abbr title="07 April 2026: 3 contribution">&#x1F7E9; 07</abbr> <abbr title="10 April 2026: 3 contribution">&#x1F7E9; 10</abbr> <abbr title="12 April 2026: 8 contribution">&#x1F7E9; 12</abbr> <abbr title="15 April 2026: 1 contribution">&#x1F7E9; 15</abbr> <abbr title="18 April 2026: 7 contribution">&#x1F7E9; 18</abbr> <abbr title="22 April 2026: 1 contribution">&#x1F7E9; 22</abbr> <abbr title="25 April 2026: 2 contribution">&#x1F7E9; 25</abbr></td></tr>
+<tr><td>Maret 2026</td><td><abbr title="20 Maret 2026: 5 contribution">&#x1F7E9; 20</abbr></td></tr>
+<tr><td>Januari 2026</td><td><abbr title="02 Januari 2026: 1 contribution">&#x1F7E9; 02</abbr> <abbr title="05 Januari 2026: 1 contribution">&#x1F7E9; 05</abbr> <abbr title="24 Januari 2026: 7 contribution">&#x1F7E9; 24</abbr></td></tr>
+<tr><td>Desember 2025</td><td><abbr title="09 Desember 2025: 13 contribution">&#x1F7E9; 09</abbr> <abbr title="10 Desember 2025: 9 contribution">&#x1F7E9; 10</abbr> <abbr title="15 Desember 2025: 1 contribution">&#x1F7E9; 15</abbr> <abbr title="17 Desember 2025: 1 contribution">&#x1F7E9; 17</abbr> <abbr title="19 Desember 2025: 1 contribution">&#x1F7E9; 19</abbr> <abbr title="22 Desember 2025: 1 contribution">&#x1F7E9; 22</abbr> <abbr title="24 Desember 2025: 1 contribution">&#x1F7E9; 24</abbr> <abbr title="26 Desember 2025: 1 contribution">&#x1F7E9; 26</abbr> <abbr title="27 Desember 2025: 1 contribution">&#x1F7E9; 27</abbr> <abbr title="28 Desember 2025: 1 contribution">&#x1F7E9; 28</abbr> <abbr title="29 Desember 2025: 1 contribution">&#x1F7E9; 29</abbr></td></tr>
+<tr><td>Juli 2025</td><td><abbr title="07 Juli 2025: 3 contribution">&#x1F7E9; 07</abbr> <abbr title="08 Juli 2025: 9 contribution">&#x1F7E9; 08</abbr></td></tr>
+</tbody>
+</table>
+
+### Rekap bulanan
+
 | Bulan | Hari aktif | Contribution |
 | --- | ---: | ---: |
 | April 2026 | 9 | 28 |

@@ -116,6 +116,44 @@ const monthlyRows = [...monthlyTotals.entries()]
       )} | ${numberFormatter.format(value.total)} |`
   );
 
+const activeDaysByMonth = new Map();
+
+for (const day of activeDays) {
+  const month = day.date.slice(0, 7);
+  const days = activeDaysByMonth.get(month) ?? [];
+  days.push(day);
+  activeDaysByMonth.set(month, days);
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+}
+
+function formatActiveDayTile(day) {
+  const label = `${formatDate(day.date)}: ${numberFormatter.format(
+    day.contributionCount
+  )} contribution`;
+
+  return `<abbr title="${escapeHtml(label)}">&#x1F7E9; ${day.date.slice(
+    8
+  )}</abbr>`;
+}
+
+const activeMonthRows = [...activeDaysByMonth.entries()]
+  .sort(([a], [b]) => b.localeCompare(a))
+  .map(([month, days]) => {
+    const tiles = days
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .map(formatActiveDayTile)
+      .join(" ");
+
+    return `<tr><td>${formatMonth(month)}</td><td>${tiles}</td></tr>`;
+  });
+
 const dailyRows = activeDays
   .toReversed()
   .map(
@@ -134,6 +172,22 @@ const generated = [
     calendar.totalContributions
   )}\``,
   `- **Hari aktif:** \`${numberFormatter.format(activeDays.length)}\``,
+  "",
+  "### Kalender per bulan",
+  "Arahkan cursor ke kotak hijau untuk melihat tanggal dan jumlah contribution.",
+  "",
+  "<table>",
+  "<thead>",
+  "<tr><th>Bulan</th><th>Tanggal aktif</th></tr>",
+  "</thead>",
+  "<tbody>",
+  ...(activeMonthRows.length
+    ? activeMonthRows
+    : ["<tr><td>-</td><td>-</td></tr>"]),
+  "</tbody>",
+  "</table>",
+  "",
+  "### Rekap bulanan",
   "",
   "| Bulan | Hari aktif | Contribution |",
   "| --- | ---: | ---: |",
