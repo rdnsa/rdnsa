@@ -23,6 +23,27 @@
   <img alt="snake" src="https://raw.githubusercontent.com/rdnsa/rdnsa/output/github-contribution-grid-snake.svg">
 </picture>
 
+<!-- CONTRIBUTION-STATS:START -->
+Data otomatis dari GitHub contribution calendar untuk akun `rdnsa`.
+
+- **Periode:** menunggu GitHub Actions berjalan
+- **Total contribution:** menunggu data
+- **Hari aktif:** menunggu data
+
+| Bulan | Hari aktif | Contribution |
+| --- | ---: | ---: |
+| - | 0 | 0 |
+
+<details>
+<summary>Contribution per hari</summary>
+
+| Tanggal | Bulan | Contribution |
+| --- | --- | ---: |
+| - | - | 0 |
+
+</details>
+<!-- CONTRIBUTION-STATS:END -->
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=rdnsa&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
