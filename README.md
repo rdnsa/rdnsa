@@ -26,51 +26,93 @@
 <!-- CONTRIBUTION-STATS:START -->
 Data otomatis dari GitHub contribution calendar untuk akun `rdnsa`.
 
+- **Update terakhir:** `26 April 2026 pukul 17.07 Asia/Jakarta`
 - **Periode:** `2025-04-27` sampai `2026-04-26`
-- **Total contribution:** `87`
-- **Hari aktif:** `26`
+- **Total contribution:** `88`
+- **Commit contribution:** `71` dari `9` repository
+- **Hari aktif:** `27`
+- **Streak aktif terakhir:** `2 hari` (25 April 2026 sampai 26 April 2026)
+- **Streak terpanjang:** `4 hari` (26 Desember 2025 sampai 29 Desember 2025)
+- **Private/restricted:** `0 private/restricted contribution terdeteksi`
+
+> Snake mengikuti contribution graph resmi GitHub. Jika commit harian masih terlihat kosong, cek email author commit, branch default/gh-pages, fork, pengaturan private contribution, dan token `CONTRIBUTION_TOKEN` dengan scope `read:user`.
+
+### Rekap 30 hari terakhir
+
+| Metrik | Nilai |
+| --- | ---: |
+| Hari aktif | 10 |
+| Hari kosong | 20 |
+| Contribution | 31 |
+| Commit | 25 |
+
+### Breakdown resmi
+
+| Tipe | Total |
+| --- | ---: |
+| Commit | 71 |
+| Pull request | 9 |
+| Pull request review | 0 |
+| Issue | 0 |
+| Repository baru | 8 |
 
 ### Rekap bulanan
 
-| Bulan | Hari aktif | Contribution |
-| --- | ---: | ---: |
-| April 2026 | 9 | 30 |
-| Maret 2026 | 1 | 5 |
-| Januari 2026 | 3 | 9 |
-| Desember 2025 | 11 | 31 |
-| Juli 2025 | 2 | 12 |
+| Bulan | Hari aktif | Contribution | Commit |
+| --- | ---: | ---: | ---: |
+| April 2026 | 10 | 31 | 25 |
+| Maret 2026 | 1 | 5 | 3 |
+| Januari 2026 | 3 | 9 | 8 |
+| Desember 2025 | 11 | 31 | 26 |
+| Juli 2025 | 2 | 12 | 9 |
+
+### Sumber commit
+
+Sebagian detail repository dipotong oleh batas GraphQL; total contribution tetap memakai angka resmi calendar.
+
+| Repository | Visibility | Hari commit | Commit |
+| --- | --- | ---: | ---: |
+| [rdnsa/go-auth-backend](https://github.com/rdnsa/go-auth-backend) | Public | 12 | 25 |
+| [rdnsa/rdnsa](https://github.com/rdnsa/rdnsa) | Public | 5 | 14 |
+| [rdnsa/sentiment-analysis-gojek-grab-shabi](https://github.com/rdnsa/sentiment-analysis-gojek-grab-shabi) | Public | 6 | 12 |
+| [rdnsa/booking](https://github.com/rdnsa/booking) | Public | 1 | 6 |
+| [rdnsa/next-auth-frontend](https://github.com/rdnsa/next-auth-frontend) | Public | 2 | 5 |
+| [rdnsa/flutter_auth_frontend](https://github.com/rdnsa/flutter_auth_frontend) | Public | 1 | 4 |
+| [rdnsa/mentalhealth](https://github.com/rdnsa/mentalhealth) | Public | 1 | 2 |
+| [rdnsa/belajar-golang](https://github.com/rdnsa/belajar-golang) | Public | 1 | 2 |
 
 <details>
 <summary>Contribution per hari</summary>
 
-| Tanggal | Bulan | Contribution |
-| --- | --- | ---: |
-| 25 April 2026 | April 2026 | 4 |
-| 22 April 2026 | April 2026 | 1 |
-| 18 April 2026 | April 2026 | 7 |
-| 15 April 2026 | April 2026 | 1 |
-| 12 April 2026 | April 2026 | 8 |
-| 10 April 2026 | April 2026 | 3 |
-| 07 April 2026 | April 2026 | 3 |
-| 04 April 2026 | April 2026 | 1 |
-| 03 April 2026 | April 2026 | 2 |
-| 20 Maret 2026 | Maret 2026 | 5 |
-| 24 Januari 2026 | Januari 2026 | 7 |
-| 05 Januari 2026 | Januari 2026 | 1 |
-| 02 Januari 2026 | Januari 2026 | 1 |
-| 29 Desember 2025 | Desember 2025 | 1 |
-| 28 Desember 2025 | Desember 2025 | 1 |
-| 27 Desember 2025 | Desember 2025 | 1 |
-| 26 Desember 2025 | Desember 2025 | 1 |
-| 24 Desember 2025 | Desember 2025 | 1 |
-| 22 Desember 2025 | Desember 2025 | 1 |
-| 19 Desember 2025 | Desember 2025 | 1 |
-| 17 Desember 2025 | Desember 2025 | 1 |
-| 15 Desember 2025 | Desember 2025 | 1 |
-| 10 Desember 2025 | Desember 2025 | 9 |
-| 09 Desember 2025 | Desember 2025 | 13 |
-| 08 Juli 2025 | Juli 2025 | 9 |
-| 07 Juli 2025 | Juli 2025 | 3 |
+| Tanggal | Bulan | Contribution | Commit |
+| --- | --- | ---: | ---: |
+| 26 April 2026 | April 2026 | 1 | 1 |
+| 25 April 2026 | April 2026 | 4 | 4 |
+| 22 April 2026 | April 2026 | 1 | 1 |
+| 18 April 2026 | April 2026 | 7 | 7 |
+| 15 April 2026 | April 2026 | 1 | 1 |
+| 12 April 2026 | April 2026 | 8 | 5 |
+| 10 April 2026 | April 2026 | 3 | 2 |
+| 07 April 2026 | April 2026 | 3 | 2 |
+| 04 April 2026 | April 2026 | 1 | 1 |
+| 03 April 2026 | April 2026 | 2 | 1 |
+| 20 Maret 2026 | Maret 2026 | 5 | 3 |
+| 24 Januari 2026 | Januari 2026 | 7 | 6 |
+| 05 Januari 2026 | Januari 2026 | 1 | 1 |
+| 02 Januari 2026 | Januari 2026 | 1 | 1 |
+| 29 Desember 2025 | Desember 2025 | 1 | 1 |
+| 28 Desember 2025 | Desember 2025 | 1 | 1 |
+| 27 Desember 2025 | Desember 2025 | 1 | 1 |
+| 26 Desember 2025 | Desember 2025 | 1 | 1 |
+| 24 Desember 2025 | Desember 2025 | 1 | 1 |
+| 22 Desember 2025 | Desember 2025 | 1 | 1 |
+| 19 Desember 2025 | Desember 2025 | 1 | 1 |
+| 17 Desember 2025 | Desember 2025 | 1 | 1 |
+| 15 Desember 2025 | Desember 2025 | 1 | 1 |
+| 10 Desember 2025 | Desember 2025 | 9 | 6 |
+| 09 Desember 2025 | Desember 2025 | 13 | 11 |
+| 08 Juli 2025 | Juli 2025 | 9 | 7 |
+| 07 Juli 2025 | Juli 2025 | 3 | 2 |
 
 </details>
 <!-- CONTRIBUTION-STATS:END -->
