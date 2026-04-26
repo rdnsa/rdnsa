@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Contribution Visuals
 
 on:
   schedule:
@@ -35,7 +35,7 @@ jobs:
           # Add CONTRIBUTION_TOKEN from the rdnsa account with read:user to include private/internal contribution counts.
           GITHUB_TOKEN: ${{ secrets.CONTRIBUTION_TOKEN || github.token }}
 
-      - name: Update contribution log and snake tooltips
+      - name: Update contribution dashboard, log, and snake tooltips
         run: node scripts/update-contribution-log.mjs
         env:
           # Add CONTRIBUTION_TOKEN from the rdnsa account with read:user to include private/internal contribution counts.
@@ -53,7 +53,7 @@ jobs:
             git push
           fi
 
-      - name: Push snake to output branch
+      - name: Push contribution visuals to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

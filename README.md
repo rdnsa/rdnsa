@@ -1,86 +1,120 @@
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_rdnsa_) @_rdnsa_
-<br/>
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rdnsa) @Raden Issa
-<br/>
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@rdnsa123) @rdnsa123
-<br/>
-[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@Yurts) @Yvrtz
-<br/>
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rdnsa123@gmail.com) rdnsa123@gmail.com
+<h1 align="center">Raden Issa</h1>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=plastic&logo=dart&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=plastic&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=plastic&logo=kotlin&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=plastic&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=plastic&logo=r&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=plastic&logo=powershell&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=plastic&logo=windows-terminal&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=plastic&logo=Cloudflare&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=plastic&logo=.net&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=plastic&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=plastic&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=plastic&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=plastic&logo=Flutter&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=plastic&logo=JSON%20web%20tokens) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=plastic&logo=laravel&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=plastic&logo=npm&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=plastic&logo=nestjs&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=plastic&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=plastic&logo=vite&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=plastic&logo=vuedotjs&logoColor=%234FC08D) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=plastic&logo=WordPress&logoColor=white) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=plastic&logo=web3.js&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=plastic&logo=jenkins&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=plastic&logo=mariadb&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=plastic&logo=firebase&logoColor=ffcd34) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=plastic&logo=sqlite&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=plastic&logo=redis&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=plastic&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=plastic&logo=adobe&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=plastic&logo=adobe%20illustrator&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=plastic&logo=adobe%20photoshop&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=plastic&logo=plotly&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=plastic&logo=numpy&logoColor=blue) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=plastic&logo=selenium&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=plastic&logo=notion&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=plastic&logo=powerbi&logoColor=black) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=plastic&logo=Raspberry-Pi) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=plastic&logo=jira&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=plastic&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=plastic&logo=eslint&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=rdnsa&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=rdnsa&theme=midnight-purple&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=rdnsa&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p align="center">
+  <strong>Project Manager</strong> focused on AI, software delivery, data products, and cross-functional execution.
+</p>
 
-## Contribution
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=900&color=22C55E&center=true&vCenter=true&width=780&lines=Project+Manager;AI+and+Software+Delivery;Turning+ideas+into+planned%2C+shipped+products;Connecting+strategy%2C+teams%2C+and+execution" alt="Typing SVG">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rdnsa&label=Profile%20views&color=22c55e&style=flat" alt="Profile views">
+</p>
+
+I am a Project Manager who connects product goals, engineering execution, stakeholder communication, and measurable delivery. I enjoy working close to technical teams while keeping the roadmap, priorities, risks, and outcomes clear for everyone involved.
+
+## Contribution Dashboard
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rdnsa/rdnsa/output/github-contribution-dashboard-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rdnsa/rdnsa/output/github-contribution-dashboard.svg">
+  <img alt="GitHub contribution dashboard" src="https://raw.githubusercontent.com/rdnsa/rdnsa/output/github-contribution-dashboard.svg">
+</picture>
+
+## Contribution Snake
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rdnsa/rdnsa/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rdnsa/rdnsa/output/github-contribution-grid-snake.svg">
-  <img alt="snake" src="https://raw.githubusercontent.com/rdnsa/rdnsa/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/rdnsa/rdnsa/output/github-contribution-grid-snake.svg">
 </picture>
 
 <!-- CONTRIBUTION-STATS:START -->
-Data otomatis dari GitHub contribution calendar untuk akun `rdnsa`.
+Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
-- **Periode:** `2025-04-27` sampai `2026-04-26`
-- **Total contribution:** `87`
-- **Hari aktif:** `26`
+- **Last updated:** `Waiting for the next GitHub Actions run`
+- **Period:** `Generated automatically`
+- **Total contributions:** `Generated automatically`
+- **Commit contributions:** `Generated automatically`
+- **Active days:** `Generated automatically`
+- **Latest active streak:** `Generated automatically`
+- **Longest streak:** `Generated automatically`
+- **Private/restricted:** `Generated automatically when CONTRIBUTION_TOKEN can read it`
 
-### Rekap bulanan
-
-| Bulan | Hari aktif | Contribution |
-| --- | ---: | ---: |
-| April 2026 | 9 | 30 |
-| Maret 2026 | 1 | 5 |
-| Januari 2026 | 3 | 9 |
-| Desember 2025 | 11 | 31 |
-| Juli 2025 | 2 | 12 |
-
-<details>
-<summary>Contribution per hari</summary>
-
-| Tanggal | Bulan | Contribution |
-| --- | --- | ---: |
-| 25 April 2026 | April 2026 | 4 |
-| 22 April 2026 | April 2026 | 1 |
-| 18 April 2026 | April 2026 | 7 |
-| 15 April 2026 | April 2026 | 1 |
-| 12 April 2026 | April 2026 | 8 |
-| 10 April 2026 | April 2026 | 3 |
-| 07 April 2026 | April 2026 | 3 |
-| 04 April 2026 | April 2026 | 1 |
-| 03 April 2026 | April 2026 | 2 |
-| 20 Maret 2026 | Maret 2026 | 5 |
-| 24 Januari 2026 | Januari 2026 | 7 |
-| 05 Januari 2026 | Januari 2026 | 1 |
-| 02 Januari 2026 | Januari 2026 | 1 |
-| 29 Desember 2025 | Desember 2025 | 1 |
-| 28 Desember 2025 | Desember 2025 | 1 |
-| 27 Desember 2025 | Desember 2025 | 1 |
-| 26 Desember 2025 | Desember 2025 | 1 |
-| 24 Desember 2025 | Desember 2025 | 1 |
-| 22 Desember 2025 | Desember 2025 | 1 |
-| 19 Desember 2025 | Desember 2025 | 1 |
-| 17 Desember 2025 | Desember 2025 | 1 |
-| 15 Desember 2025 | Desember 2025 | 1 |
-| 10 Desember 2025 | Desember 2025 | 9 |
-| 09 Desember 2025 | Desember 2025 | 13 |
-| 08 Juli 2025 | Juli 2025 | 9 |
-| 07 Juli 2025 | Juli 2025 | 3 |
-
-</details>
+> The dashboard and snake follow GitHub's official contribution graph. Empty days usually mean GitHub did not count a commit for that date yet, or the commit did not meet GitHub contribution rules such as verified author email, default branch or gh-pages branch, non-fork repository, private contribution settings, and a CONTRIBUTION_TOKEN with read:user scope.
 <!-- CONTRIBUTION-STATS:END -->
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=rdnsa&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+## What I Do
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=rdnsa&limit=5&theme=radical&combine_all_yearly_contributions=true)
+- Project planning, execution tracking, and stakeholder communication
+- AI and software product coordination from discovery to delivery
+- Risk management, roadmap clarity, and release discipline
+- Technical collaboration across frontend, backend, data, cloud, and automation work
+- Documentation, reporting, and operational process improvement
 
----
-![](https://komarev.com/ghpvc/?username=rdnsa&label=Profile%20Views&color=22c55e&style=flat)
+## Tools And Technologies
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,figma,notion,postman,docker,kubernetes,cloudflare,vercel,firebase,mongodb,mysql,postgres,redis" alt="Tools and platforms">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,python,java,kotlin,go,dart,php,react,nextjs,vue,nodejs,flutter,fastapi,django,flask,laravel,tailwind" alt="Programming and frameworks">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Project%20Management-0F172A?style=for-the-badge&logo=notion&logoColor=white" alt="Project Management">
+  <img src="https://img.shields.io/badge/Product%20Delivery-14532D?style=for-the-badge&logo=githubactions&logoColor=white" alt="Product Delivery">
+  <img src="https://img.shields.io/badge/AI%20Coordination-1D4ED8?style=for-the-badge&logo=openai&logoColor=white" alt="AI Coordination">
+  <img src="https://img.shields.io/badge/Data%20Products-7C2D12?style=for-the-badge&logo=powerbi&logoColor=white" alt="Data Products">
+</p>
+
+## GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rdnsa&theme=github_dark&hide_border=false&show_icons=true&include_all_commits=true&count_private=true" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rdnsa&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=rdnsa&theme=github-dark-blue&hide_border=false" alt="GitHub streak stats">
+</p>
+
+## Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=rdnsa&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub trophies">
+</p>
+
+## Top Contributed Repositories
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=rdnsa&limit=5&theme=radical&combine_all_yearly_contributions=true" alt="Top contributed repositories">
+</p>
+
+## Connect
+
+<p align="center">
+  <a href="https://instagram.com/_rdnsa_">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="https://linkedin.com/in/rdnsa">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://medium.com/@rdnsa123">
+    <img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white" alt="Medium">
+  </a>
+  <a href="https://tiktok.com/@Yurts">
+    <img src="https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white" alt="TikTok">
+  </a>
+  <a href="mailto:rdnsa123@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
