@@ -2,7 +2,7 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0,6,12,18 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -17,6 +17,8 @@ jobs:
     timeout-minutes: 5
     env:
       GITHUB_USERNAME: rdnsa
+      PROFILE_COMMIT_NAME: rdnsa
+      PROFILE_COMMIT_EMAIL: 165114761+rdnsa@users.noreply.github.com
 
     steps:
       - name: Checkout profile repository
@@ -30,13 +32,13 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          # Optional: add CONTRIBUTION_TOKEN from the rdnsa account to include private contributions.
+          # Add CONTRIBUTION_TOKEN from the rdnsa account with read:user to include private/internal contribution counts.
           GITHUB_TOKEN: ${{ secrets.CONTRIBUTION_TOKEN || github.token }}
 
       - name: Update contribution log and snake tooltips
         run: node scripts/update-contribution-log.mjs
         env:
-          # Optional: add CONTRIBUTION_TOKEN from the rdnsa account to include private contributions.
+          # Add CONTRIBUTION_TOKEN from the rdnsa account with read:user to include private/internal contribution counts.
           GITHUB_TOKEN: ${{ secrets.CONTRIBUTION_TOKEN || github.token }}
 
       - name: Commit README contribution log
@@ -47,7 +49,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "README contribution log is already up to date."
           else
-            git commit -m "Update contribution daily log"
+            git commit --author="${PROFILE_COMMIT_NAME} <${PROFILE_COMMIT_EMAIL}>" -m "Update contribution daily log"
             git push
           fi
 
