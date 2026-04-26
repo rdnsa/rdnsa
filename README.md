@@ -35,16 +35,95 @@ I am a Project Manager who connects product goals, engineering execution, stakeh
 <!-- CONTRIBUTION-STATS:START -->
 Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
-- **Last updated:** `Waiting for the next GitHub Actions run`
-- **Period:** `Generated automatically`
-- **Total contributions:** `Generated automatically`
-- **Commit contributions:** `Generated automatically`
-- **Active days:** `Generated automatically`
-- **Latest active streak:** `Generated automatically`
-- **Longest streak:** `Generated automatically`
-- **Private/restricted:** `Generated automatically when CONTRIBUTION_TOKEN can read it`
+- **Last updated:** `April 26, 2026 at 05:19 PM Asia/Jakarta`
+- **Period:** `2025-04-27` to `2026-04-26`
+- **Total contributions:** `91`
+- **Commit contributions:** `74` across `9` repositories
+- **Active days:** `27`
+- **Latest active streak:** `2 days` (April 25, 2026 to April 26, 2026)
+- **Longest streak:** `4 days` (December 26, 2025 to December 29, 2025)
+- **Private/restricted:** `0 private/restricted contributions detected`
 
 > The dashboard and snake follow GitHub's official contribution graph. Empty days usually mean GitHub did not count a commit for that date yet, or the commit did not meet GitHub contribution rules such as verified author email, default branch or gh-pages branch, non-fork repository, private contribution settings, and a CONTRIBUTION_TOKEN with read:user scope.
+
+### Last 30 Days
+
+| Metric | Value |
+| --- | ---: |
+| Active days | 10 |
+| Empty days | 20 |
+| Contributions | 34 |
+| Commits | 28 |
+
+### Official Breakdown
+
+| Type | Total |
+| --- | ---: |
+| Commits | 74 |
+| Pull requests | 9 |
+| Pull request reviews | 0 |
+| Issues | 0 |
+| New repositories | 8 |
+
+### Monthly Recap
+
+| Month | Active days | Contributions | Commits |
+| --- | ---: | ---: | ---: |
+| April 2026 | 10 | 34 | 28 |
+| March 2026 | 1 | 5 | 3 |
+| January 2026 | 3 | 9 | 8 |
+| December 2025 | 11 | 31 | 26 |
+| July 2025 | 2 | 12 | 9 |
+
+### Commit Sources
+
+Some repository details were truncated by the GraphQL limit; total contributions still use the official GitHub calendar.
+
+| Repository | Visibility | Commit days | Commits |
+| --- | --- | ---: | ---: |
+| [rdnsa/go-auth-backend](https://github.com/rdnsa/go-auth-backend) | Public | 12 | 25 |
+| [rdnsa/rdnsa](https://github.com/rdnsa/rdnsa) | Public | 5 | 17 |
+| [rdnsa/sentiment-analysis-gojek-grab-shabi](https://github.com/rdnsa/sentiment-analysis-gojek-grab-shabi) | Public | 6 | 12 |
+| [rdnsa/booking](https://github.com/rdnsa/booking) | Public | 1 | 6 |
+| [rdnsa/next-auth-frontend](https://github.com/rdnsa/next-auth-frontend) | Public | 2 | 5 |
+| [rdnsa/flutter_auth_frontend](https://github.com/rdnsa/flutter_auth_frontend) | Public | 1 | 4 |
+| [rdnsa/mentalhealth](https://github.com/rdnsa/mentalhealth) | Public | 1 | 2 |
+| [rdnsa/belajar-golang](https://github.com/rdnsa/belajar-golang) | Public | 1 | 2 |
+
+<details>
+<summary>Daily contribution log</summary>
+
+| Date | Month | Contributions | Commits |
+| --- | --- | ---: | ---: |
+| April 26, 2026 | April 2026 | 4 | 4 |
+| April 25, 2026 | April 2026 | 4 | 4 |
+| April 22, 2026 | April 2026 | 1 | 1 |
+| April 18, 2026 | April 2026 | 7 | 7 |
+| April 15, 2026 | April 2026 | 1 | 1 |
+| April 12, 2026 | April 2026 | 8 | 5 |
+| April 10, 2026 | April 2026 | 3 | 2 |
+| April 07, 2026 | April 2026 | 3 | 2 |
+| April 04, 2026 | April 2026 | 1 | 1 |
+| April 03, 2026 | April 2026 | 2 | 1 |
+| March 20, 2026 | March 2026 | 5 | 3 |
+| January 24, 2026 | January 2026 | 7 | 6 |
+| January 05, 2026 | January 2026 | 1 | 1 |
+| January 02, 2026 | January 2026 | 1 | 1 |
+| December 29, 2025 | December 2025 | 1 | 1 |
+| December 28, 2025 | December 2025 | 1 | 1 |
+| December 27, 2025 | December 2025 | 1 | 1 |
+| December 26, 2025 | December 2025 | 1 | 1 |
+| December 24, 2025 | December 2025 | 1 | 1 |
+| December 22, 2025 | December 2025 | 1 | 1 |
+| December 19, 2025 | December 2025 | 1 | 1 |
+| December 17, 2025 | December 2025 | 1 | 1 |
+| December 15, 2025 | December 2025 | 1 | 1 |
+| December 10, 2025 | December 2025 | 9 | 6 |
+| December 09, 2025 | December 2025 | 13 | 11 |
+| July 08, 2025 | July 2025 | 9 | 7 |
+| July 07, 2025 | July 2025 | 3 | 2 |
+
+</details>
 <!-- CONTRIBUTION-STATS:END -->
 
 ## What I Do
