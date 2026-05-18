@@ -35,10 +35,10 @@ I am a Project Manager who connects product goals, engineering execution, stakeh
 <!-- CONTRIBUTION-STATS:START -->
 Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
-- **Last updated:** `May 18, 2026 at 02:10 AM Asia/Jakarta`
-- **Period:** `2025-05-18` to `2026-05-17`
-- **Total contributions:** `214`
-- **Commit contributions:** `186` across `12` repositories
+- **Last updated:** `May 18, 2026 at 10:44 AM Asia/Jakarta`
+- **Period:** `2025-05-18` to `2026-05-18`
+- **Total contributions:** `215`
+- **Commit contributions:** `187` across `12` repositories
 - **Active days:** `48`
 - **Latest active streak:** `23 days` (April 25, 2026 to May 17, 2026)
 - **Longest streak:** `23 days` (April 25, 2026 to May 17, 2026)
@@ -50,16 +50,16 @@ Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
 | Metric | Value |
 | --- | ---: |
-| Active days | 25 |
-| Empty days | 5 |
-| Contributions | 139 |
-| Commits | 128 |
+| Active days | 24 |
+| Empty days | 6 |
+| Contributions | 133 |
+| Commits | 122 |
 
 ### Official Breakdown
 
 | Type | Total |
 | --- | ---: |
-| Commits | 186 |
+| Commits | 187 |
 | Pull requests | 15 |
 | Pull request reviews | 0 |
 | Issues | 0 |
@@ -69,7 +69,7 @@ Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
 | Month | Active days | Contributions | Commits |
 | --- | ---: | ---: | ---: |
-| May 2026 | 17 | 82 | 78 |
+| May 2026 | 17 | 83 | 79 |
 | April 2026 | 14 | 75 | 62 |
 | March 2026 | 1 | 5 | 3 |
 | January 2026 | 3 | 9 | 8 |
@@ -82,7 +82,7 @@ Some repository details were truncated by the GraphQL limit; total contributions
 
 | Repository | Visibility | Commit days | Commits |
 | --- | --- | ---: | ---: |
-| [rdnsa/rdnsa](https://github.com/rdnsa/rdnsa) | Public | 26 | 105 |
+| [rdnsa/rdnsa](https://github.com/rdnsa/rdnsa) | Public | 26 | 106 |
 | [rdnsa/go-auth-backend](https://github.com/rdnsa/go-auth-backend) | Public | 12 | 25 |
 | [rdnsa/IM-luxury](https://github.com/rdnsa/IM-luxury) | Public | 3 | 15 |
 | [rdnsa/sentiment-analysis-gojek-grab-shabi](https://github.com/rdnsa/sentiment-analysis-gojek-grab-shabi) | Public | 6 | 12 |
@@ -96,7 +96,7 @@ Some repository details were truncated by the GraphQL limit; total contributions
 
 | Date | Month | Contributions | Commits |
 | --- | --- | ---: | ---: |
-| May 17, 2026 | May 2026 | 3 | 3 |
+| May 17, 2026 | May 2026 | 4 | 4 |
 | May 16, 2026 | May 2026 | 4 | 4 |
 | May 15, 2026 | May 2026 | 9 | 9 |
 | May 14, 2026 | May 2026 | 4 | 4 |
