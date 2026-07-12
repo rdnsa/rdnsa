@@ -35,11 +35,11 @@ I am a Project Manager who connects product goals, engineering execution, stakeh
 <!-- CONTRIBUTION-STATS:START -->
 Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
-- **Last updated:** `July 12, 2026 at 02:03 AM Asia/Jakarta`
-- **Period:** `2025-07-06` to `2026-07-11`
-- **Total contributions:** `434`
-- **Commit contributions:** `406` across `12` repositories
-- **Active days:** `103`
+- **Last updated:** `July 12, 2026 at 09:48 AM Asia/Jakarta`
+- **Period:** `2025-07-13` to `2026-07-12`
+- **Total contributions:** `435`
+- **Commit contributions:** `407` across `12` repositories
+- **Active days:** `101`
 - **Latest active streak:** `78 days` (April 25, 2026 to July 11, 2026)
 - **Longest streak:** `78 days` (April 25, 2026 to July 11, 2026)
 - **Private/restricted:** `0 private/restricted contributions detected`
@@ -50,16 +50,16 @@ Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
 | Metric | Value |
 | --- | ---: |
-| Active days | 30 |
-| Empty days | 0 |
-| Contributions | 118 |
-| Commits | 118 |
+| Active days | 29 |
+| Empty days | 1 |
+| Contributions | 115 |
+| Commits | 115 |
 
 ### Official Breakdown
 
 | Type | Total |
 | --- | ---: |
-| Commits | 406 |
+| Commits | 407 |
 | Pull requests | 15 |
 | Pull request reviews | 0 |
 | Issues | 0 |
@@ -69,14 +69,13 @@ Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
 | Month | Active days | Contributions | Commits |
 | --- | ---: | ---: | ---: |
-| July 2026 | 11 | 43 | 43 |
+| July 2026 | 11 | 44 | 44 |
 | June 2026 | 30 | 119 | 119 |
 | May 2026 | 31 | 140 | 136 |
 | April 2026 | 14 | 75 | 62 |
 | March 2026 | 1 | 5 | 3 |
 | January 2026 | 3 | 9 | 8 |
 | December 2025 | 11 | 31 | 26 |
-| July 2025 | 2 | 12 | 9 |
 
 ### Commit Sources
 
@@ -84,7 +83,7 @@ Some repository details were truncated by the GraphQL limit; total contributions
 
 | Repository | Visibility | Commit days | Commits |
 | --- | --- | ---: | ---: |
-| [rdnsa/rdnsa](https://github.com/rdnsa/rdnsa) | Public | 81 | 324 |
+| [rdnsa/rdnsa](https://github.com/rdnsa/rdnsa) | Public | 81 | 325 |
 | [rdnsa/go-auth-backend](https://github.com/rdnsa/go-auth-backend) | Public | 12 | 25 |
 | [rdnsa/IM-luxury](https://github.com/rdnsa/IM-luxury) | Public | 3 | 15 |
 | [rdnsa/sentiment-analysis-gojek-grab-shabi](https://github.com/rdnsa/sentiment-analysis-gojek-grab-shabi) | Public | 6 | 12 |
@@ -98,7 +97,7 @@ Some repository details were truncated by the GraphQL limit; total contributions
 
 | Date | Month | Contributions | Commits |
 | --- | --- | ---: | ---: |
-| July 11, 2026 | July 2026 | 3 | 3 |
+| July 11, 2026 | July 2026 | 4 | 4 |
 | July 10, 2026 | July 2026 | 4 | 4 |
 | July 09, 2026 | July 2026 | 4 | 4 |
 | July 08, 2026 | July 2026 | 4 | 4 |
@@ -199,8 +198,6 @@ Some repository details were truncated by the GraphQL limit; total contributions
 | December 15, 2025 | December 2025 | 1 | 1 |
 | December 10, 2025 | December 2025 | 9 | 6 |
 | December 09, 2025 | December 2025 | 13 | 11 |
-| July 08, 2025 | July 2025 | 9 | 7 |
-| July 07, 2025 | July 2025 | 3 | 2 |
 
 </details>
 <!-- CONTRIBUTION-STATS:END -->
