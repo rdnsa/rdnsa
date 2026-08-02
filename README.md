@@ -35,13 +35,13 @@ I am a Project Manager who connects product goals, engineering execution, stakeh
 <!-- CONTRIBUTION-STATS:START -->
 Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
-- **Last updated:** `August 02, 2026 at 09:48 AM Asia/Jakarta`
+- **Last updated:** `August 02, 2026 at 03:23 PM Asia/Jakarta`
 - **Period:** `2025-08-03` to `2026-08-02`
-- **Total contributions:** `507`
-- **Commit contributions:** `482` across `10` repositories
-- **Active days:** `122`
-- **Latest active streak:** `99 days` (April 25, 2026 to August 01, 2026)
-- **Longest streak:** `99 days` (April 25, 2026 to August 01, 2026)
+- **Total contributions:** `525`
+- **Commit contributions:** `499` across `11` repositories
+- **Active days:** `123`
+- **Latest active streak:** `100 days` (April 25, 2026 to August 02, 2026)
+- **Longest streak:** `100 days` (April 25, 2026 to August 02, 2026)
 - **Private/restricted:** `0 private/restricted contributions detected`
 
 > The dashboard and snake follow GitHub's official contribution graph. Empty days usually mean GitHub did not count a commit for that date yet, or the commit did not meet GitHub contribution rules such as verified author email, default branch or gh-pages branch, non-fork repository, private contribution settings, and a CONTRIBUTION_TOKEN with read:user scope.
@@ -50,30 +50,30 @@ Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
 | Metric | Value |
 | --- | ---: |
-| Active days | 29 |
-| Empty days | 1 |
-| Contributions | 116 |
-| Commits | 116 |
+| Active days | 30 |
+| Empty days | 0 |
+| Contributions | 134 |
+| Commits | 133 |
 
 ### Official Breakdown
 
 | Type | Total |
 | --- | ---: |
-| Commits | 482 |
+| Commits | 499 |
 | Pull requests | 15 |
 | Pull request reviews | 0 |
 | Issues | 0 |
-| New repositories | 10 |
+| New repositories | 11 |
 
 ### Monthly Recap
 
 | Month | Active days | Contributions | Commits |
 | --- | ---: | ---: | ---: |
-| August 2026 | 1 | 4 | 4 |
+| August 2026 | 2 | 22 | 21 |
 | July 2026 | 31 | 124 | 124 |
 | June 2026 | 30 | 119 | 119 |
 | May 2026 | 31 | 140 | 136 |
-| April 2026 | 14 | 75 | 55 |
+| April 2026 | 14 | 75 | 54 |
 | March 2026 | 1 | 5 | 3 |
 | January 2026 | 3 | 9 | 8 |
 | December 2025 | 11 | 31 | 25 |
@@ -86,18 +86,19 @@ Some repository details were truncated by the GraphQL limit; total contributions
 | --- | --- | ---: | ---: |
 | [rdnsa/rdnsa](https://github.com/rdnsa/rdnsa) | Public | 100 | 401 |
 | [rdnsa/go-auth-backend](https://github.com/rdnsa/go-auth-backend) | Public | 11 | 22 |
+| [rdnsa/family](https://github.com/rdnsa/family) | Public | 1 | 16 |
 | [rdnsa/IM-luxury](https://github.com/rdnsa/IM-luxury) | Public | 3 | 15 |
 | [rdnsa/sentiment-analysis-gojek-grab-shabi](https://github.com/rdnsa/sentiment-analysis-gojek-grab-shabi) | Public | 6 | 12 |
 | [rdnsa/web-profile](https://github.com/rdnsa/web-profile) | Public | 2 | 6 |
 | [rdnsa/booking](https://github.com/rdnsa/booking) | Public | 1 | 6 |
 | [rdnsa/next-auth-frontend](https://github.com/rdnsa/next-auth-frontend) | Public | 2 | 5 |
-| [rdnsa/AI-shabi](https://github.com/rdnsa/AI-shabi) | Public | 1 | 4 |
 
 <details>
 <summary>Daily contribution log</summary>
 
 | Date | Month | Contributions | Commits |
 | --- | --- | ---: | ---: |
+| August 02, 2026 | August 2026 | 18 | 17 |
 | August 01, 2026 | August 2026 | 4 | 4 |
 | July 31, 2026 | July 2026 | 4 | 4 |
 | July 30, 2026 | July 2026 | 4 | 4 |
@@ -197,7 +198,7 @@ Some repository details were truncated by the GraphQL limit; total contributions
 | April 27, 2026 | April 2026 | 6 | 6 |
 | April 26, 2026 | April 2026 | 8 | 7 |
 | April 25, 2026 | April 2026 | 4 | 4 |
-| April 22, 2026 | April 2026 | 1 | 1 |
+| April 22, 2026 | April 2026 | 1 | 0 |
 | April 18, 2026 | April 2026 | 7 | 0 |
 | April 15, 2026 | April 2026 | 1 | 1 |
 | April 12, 2026 | April 2026 | 8 | 5 |
