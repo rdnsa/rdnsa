@@ -35,13 +35,13 @@ I am a Project Manager who connects product goals, engineering execution, stakeh
 <!-- CONTRIBUTION-STATS:START -->
 Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
-- **Last updated:** `September 03, 2026 at 10:16 AM Asia/Jakarta`
+- **Last updated:** `September 03, 2026 at 05:46 PM Asia/Jakarta`
 - **Period:** `2025-08-31` to `2026-09-03`
-- **Total contributions:** `662`
-- **Commit contributions:** `634` across `13` repositories
-- **Active days:** `154`
-- **Latest active streak:** `131 days` (April 25, 2026 to September 02, 2026)
-- **Longest streak:** `131 days` (April 25, 2026 to September 02, 2026)
+- **Total contributions:** `648`
+- **Commit contributions:** `621` across `12` repositories
+- **Active days:** `155`
+- **Latest active streak:** `132 days` (April 25, 2026 to September 03, 2026)
+- **Longest streak:** `132 days` (April 25, 2026 to September 03, 2026)
 - **Private/restricted:** `0 private/restricted contributions detected`
 
 > The dashboard and snake follow GitHub's official contribution graph. Empty days usually mean GitHub did not count a commit for that date yet, or the commit did not meet GitHub contribution rules such as verified author email, default branch or gh-pages branch, non-fork repository, private contribution settings, and a CONTRIBUTION_TOKEN with read:user scope.
@@ -50,30 +50,30 @@ Automatically generated from the GitHub contribution calendar for `rdnsa`.
 
 | Metric | Value |
 | --- | ---: |
-| Active days | 29 |
-| Empty days | 1 |
-| Contributions | 126 |
-| Commits | 124 |
+| Active days | 30 |
+| Empty days | 0 |
+| Contributions | 112 |
+| Commits | 111 |
 
 ### Official Breakdown
 
 | Type | Total |
 | --- | ---: |
-| Commits | 634 |
+| Commits | 621 |
 | Pull requests | 15 |
 | Pull request reviews | 0 |
 | Issues | 0 |
-| New repositories | 13 |
+| New repositories | 12 |
 
 ### Monthly Recap
 
 | Month | Active days | Contributions | Commits |
 | --- | ---: | ---: | ---: |
-| September 2026 | 2 | 25 | 23 |
+| September 2026 | 3 | 11 | 10 |
 | August 2026 | 31 | 134 | 133 |
 | July 2026 | 31 | 124 | 124 |
 | June 2026 | 30 | 119 | 119 |
-| May 2026 | 31 | 140 | 34 |
+| May 2026 | 31 | 140 | 30 |
 | April 2026 | 14 | 75 | 27 |
 | March 2026 | 1 | 5 | 3 |
 | January 2026 | 3 | 9 | 8 |
@@ -85,21 +85,22 @@ Some repository details were truncated by the GraphQL limit; total contributions
 
 | Repository | Visibility | Commit days | Commits |
 | --- | --- | ---: | ---: |
-| [rdnsa/rdnsa](https://github.com/rdnsa/rdnsa) | Public | 100 | 392 |
+| [rdnsa/rdnsa](https://github.com/rdnsa/rdnsa) | Public | 100 | 389 |
 | [rdnsa/go-auth-backend](https://github.com/rdnsa/go-auth-backend) | Public | 11 | 22 |
 | [rdnsa/family](https://github.com/rdnsa/family) | Public | 1 | 16 |
 | [rdnsa/IM-luxury](https://github.com/rdnsa/IM-luxury) | Public | 3 | 15 |
-| [rdnsa/AI-complaint](https://github.com/rdnsa/AI-complaint) | Public | 1 | 14 |
 | [rdnsa/sentiment-analysis-gojek-grab-shabi](https://github.com/rdnsa/sentiment-analysis-gojek-grab-shabi) | Public | 6 | 12 |
 | [rdnsa/web-profile](https://github.com/rdnsa/web-profile) | Public | 2 | 6 |
 | [rdnsa/booking](https://github.com/rdnsa/booking) | Public | 1 | 6 |
+| [rdnsa/next-auth-frontend](https://github.com/rdnsa/next-auth-frontend) | Public | 2 | 5 |
 
 <details>
 <summary>Daily contribution log</summary>
 
 | Date | Month | Contributions | Commits |
 | --- | --- | ---: | ---: |
-| September 02, 2026 | September 2026 | 21 | 19 |
+| September 03, 2026 | September 2026 | 1 | 1 |
+| September 02, 2026 | September 2026 | 6 | 5 |
 | September 01, 2026 | September 2026 | 4 | 4 |
 | August 31, 2026 | August 2026 | 3 | 3 |
 | August 30, 2026 | August 2026 | 4 | 4 |
@@ -198,7 +199,7 @@ Some repository details were truncated by the GraphQL limit; total contributions
 | May 29, 2026 | May 2026 | 4 | 4 |
 | May 28, 2026 | May 2026 | 4 | 4 |
 | May 27, 2026 | May 2026 | 4 | 4 |
-| May 26, 2026 | May 2026 | 4 | 4 |
+| May 26, 2026 | May 2026 | 4 | 0 |
 | May 25, 2026 | May 2026 | 4 | 0 |
 | May 24, 2026 | May 2026 | 4 | 0 |
 | May 23, 2026 | May 2026 | 4 | 0 |
